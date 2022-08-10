@@ -1,0 +1,44 @@
+label,input,select,textarea{
+    display:block;
+    width:450px;
+    margin: 5px 5px 5px 0px;
+    font-size: 20px;
+    
+  }
+  
+  input[type="radio"],input[type="checkbox"]{ 
+      width:unset;
+      display: inline;
+  }
+  
+    input[type="checkbox"]{
+    width:unset;
+  }
+
+h1,p{
+    text-align: center;
+}
+
+#survey-form{
+    
+    width: 500px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(206, 194, 194);
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+#submit{
+    width: unset;
+    width:150px;
+    font-size: 22px;
+    margin: 20px auto 10px auto;
+}
+
